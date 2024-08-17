@@ -1027,3 +1027,73 @@ En este caso, el programa seguirá imprimiendo el valor de `numero` hasta que es
 
 
 Las secuencias de control son la columna vertebral de cualquier programa complejo, permitiendo tanto la ejecución secuencial como la toma de decisiones y la iteración. Dominarlas es esencial para escribir código robusto, eficiente y adaptable a cualquier situación. Al entender cómo y cuándo usar estructuras secuenciales, condicionales y iterativas, los programadores pueden construir soluciones más flexibles y efectivas, optimizando el flujo y la lógica de sus aplicaciones.
+
+### Bucles - La Magia de la Repetición Eficiente
+
+
+
+Imagina que tienes que realizar una tarea repetitiva, como sumar una lista larga de números o procesar una serie de elementos en una base de datos. Hacerlo manualmente sería tedioso y propenso a errores, ¿verdad? Aquí es donde las computadoras brillan, ya que están diseñadas precisamente para manejar tales tareas con precisión y velocidad. En programación, estas repeticiones se manejan a través de **bucles**, una de las estructuras fundamentales que permiten a los programas ejecutar una secuencia de instrucciones varias veces de manera eficiente.
+
+#### ¿Qué son los Bucles?
+
+Un bucle es una estructura de control que permite repetir una secuencia de instrucciones un número determinado de veces. Cada repetición se denomina **iteración**. Los bucles son esenciales para automatizar tareas repetitivas, procesar listas o secuencias, y ejecutar operaciones hasta que se cumpla una condición específica. La clave para diseñar un bucle efectivo radica en determinar qué contiene el bucle y cuántas veces debe repetirse.
+
+Por ejemplo, si estás sumando números en una lista, el bucle debe saber cuántos números hay que sumar y cuándo detenerse.
+
+#### Tipos de Bucles en Programación
+
+Existen varios tipos de bucles en programación, cada uno con características únicas y aplicaciones específicas. Vamos a explorar los tres más comunes: **while**, **do-while** y **for**.
+
+##### 1. Estructura Repetitiva **while**
+
+El bucle **while** repite una acción mientras se cumpla una determinada condición. Antes de cada iteración, se evalúa una expresión booleana (verdadera o falsa). Si es verdadera, se ejecuta el cuerpo del bucle. Si es falsa, el bucle se detiene y el programa continúa con la siguiente instrucción fuera del bucle.
+
+**Ejemplo Visual:**
+
+```text
+Inicio
+    Mientras (condición sea verdadera)
+        <Ejecutar acción>
+    Fin Mientras
+Fin
+```
+
+**Ejemplo Práctico:** Imagina un programa que suma los pagos efectuados en el último mes. El bucle while puede repetirse hasta que se hayan sumado todos los pagos.
+
+##### 2. Estructura Repetitiva **do-while**
+
+El bucle **do-while** es similar al while, pero con una diferencia crucial: siempre ejecuta el cuerpo del bucle al menos una vez antes de evaluar la condición. Esto se debe a que la condición se evalúa después de ejecutar el bloque de instrucciones, lo que significa que la primera iteración siempre ocurre.
+
+**Ejemplo Visual:**
+
+```text
+Inicio
+    Hacer
+        <Ejecutar acción>
+    Mientras (condición sea verdadera)
+Fin
+```
+
+**Ejemplo Práctico:** Utilizando un do-while, podrías crear un programa que sume los pagos de un mes, asegurándote de que al menos una suma se realice, incluso si la condición inicial podría ser falsa.
+
+##### 3. Estructura Repetitiva **for**
+
+El bucle **for** es ideal cuando sabes de antemano cuántas veces necesitas repetir una acción. Se compone de tres partes: el valor inicial, la condición de parada y el incremento (o decremento). Es extremadamente útil para iterar a través de listas o realizar operaciones un número fijo de veces.
+
+**Ejemplo Visual:**
+
+```text
+Inicio
+    Para (iniciar en i=0; mientras i < límite; incrementar i)
+        <Ejecutar acción>
+    Fin Para
+Fin
+```
+
+**Ejemplo Práctico:** Supongamos que tienes que calcular la nómina total de 15 profesores en una universidad. Un bucle for recorrería cada salario, sumándolos uno a uno hasta que todos hayan sido procesados.
+
+
+
+Los bucles son herramientas poderosas en programación que permiten manejar tareas repetitivas con facilidad y precisión. Al entender y aplicar los diferentes tipos de bucles, puedes crear programas más eficientes, reducir la redundancia en el código, y mantener la flexibilidad en tus soluciones.
+
+Ya sea que necesites ejecutar una acción hasta que una condición cambie, asegurarte de que una acción ocurra al menos una vez, o repetir una tarea un número específico de veces, los bucles te ofrecen la solución adecuada. Conocer y dominar estos conceptos es esencial para cualquier programador, ya que son la base sobre la cual se construyen muchos algoritmos y aplicaciones en el mundo real. ¡Atrévete a explorar el fascinante mundo de los bucles y descubre cómo pueden transformar tu código en una obra maestra de eficiencia!
